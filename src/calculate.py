@@ -4,6 +4,7 @@ import triangle
 
 shapes = {"circle": 1, "square": 1, "triangle": 3}
 
+# Доступные функции для вычисления
 calculations = ["perimeter", "area"]
 
 def validate_sizes(shape, dimensions):
