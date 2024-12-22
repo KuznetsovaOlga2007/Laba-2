@@ -62,4 +62,3 @@ class CalculatorTests:
     def test_invalid_size_type(self):
         with pytest.raises(TypeError):
             calc("triangle", "perimeter", [1, "two", 3])
-
