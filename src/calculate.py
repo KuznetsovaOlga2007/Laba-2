@@ -41,6 +41,5 @@ if __name__ == "__main__":
         dimension_input = input(f"Enter the dimensions for the {shape_type}, separated by spaces:\n")
         dimensions = list(map(float, dimension_input.split()))
 
-    # Выполнение вычисления и вывод результата
     result = compute(shape_type, calculation_type, dimensions)
     print(f"The result of the {calculation_type} of the {shape_type} is: {result}")
